@@ -15,14 +15,6 @@ class FirebaseAppChecker {
     static func initialize() {
         let providerFactory = FirebaseAppCheckProviderFactory()
         AppCheck.setAppCheckProviderFactory(providerFactory)
-//        FirebaseApp.configure()
-////        let storage = Storage.storage()
-//        let text = "ABCDEF"
-//        if let data = text.data(using: .utf8) {
-//            storage.reference(withPath: "SomeFile.txt").putData(data) { metaData, error in
-//                print(error)
-//            }
-//        }
     }
     
     static func getTokenForHeaderRequests() {
@@ -60,9 +52,6 @@ fileprivate class FirebaseAppCheckProviderFactory: NSObject, AppCheckProviderFac
         #if DEBUG
         let debugProvider = AppCheckDebugProvider(app: app)
         print("Debug token: \(debugProvider?.currentDebugToken() ?? "")")
-//        if let debugProvider = debugProvider {
-//            requestDebugToken(debugProvider: debugProvider)
-//        }
         return debugProvider
         #endif
 
