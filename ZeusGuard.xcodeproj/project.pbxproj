@@ -1,0 +1,1254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222F7AF62A7B9E0F0085756E /* FirebaseAppCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222F7AF52A7B9E0F0085756E /* FirebaseAppCheck.framework */; };
+		22CFA8AF2A7A80D900627027 /* ZeusGuardTestSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 22CFA8AE2A7A80D900627027 /* ZeusGuardTestSDK.docc */; };
+		22CFA8B52A7A80DA00627027 /* ZeusGuardTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CFA8AB2A7A80D900627027 /* ZeusGuardTestSDK.framework */; };
+		22CFA8BC2A7A80DA00627027 /* ZeusGuardTestSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFA8BB2A7A80DA00627027 /* ZeusGuardTestSDKTests.swift */; };
+		22CFA8BD2A7A80DA00627027 /* ZeusGuardTestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 22CFA8AD2A7A80D900627027 /* ZeusGuardTestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22CFA8C02A7A80DA00627027 /* ZeusGuardTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CFA8AB2A7A80D900627027 /* ZeusGuardTestSDK.framework */; };
+		22CFA8C12A7A80DA00627027 /* ZeusGuardTestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22CFA8AB2A7A80D900627027 /* ZeusGuardTestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22CFA8C92A7A811000627027 /* ZGSecureEnclaveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFA8C82A7A811000627027 /* ZGSecureEnclaveManager.swift */; };
+		22CFA9012A7A909D00627027 /* AppCheckProviderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5634D15293E305000DEB5C6 /* AppCheckProviderFactory.swift */; };
+		2F775BF3D4CBB6C6AC2AC7D9 /* Pods_ZeusGuardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4AF8032689481E95783E72 /* Pods_ZeusGuardTests.framework */; };
+		B97DB669B4ECC660A39A31ED /* Pods_ZeusGuard_ZeusGuardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA401D4CC3976852494B551E /* Pods_ZeusGuard_ZeusGuardUITests.framework */; };
+		C93417D41D10982A321DB4E6 /* Pods_ZeusGuard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA19D4F2C977B32E78711B61 /* Pods_ZeusGuard.framework */; };
+		EF549763D879D101A3869ADE /* Pods_ZeusGuardTestSDK_ZeusGuardTestSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA29FF8106CAC537201355C /* Pods_ZeusGuardTestSDK_ZeusGuardTestSDKTests.framework */; };
+		F525B3082949E9800059A451 /* JailBreakDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F525B3072949E9800059A451 /* JailBreakDetector.swift */; };
+		F5634CE4293E235B00DEB5C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5634CE3293E235B00DEB5C6 /* AppDelegate.swift */; };
+		F5634CE6293E235B00DEB5C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5634CE5293E235B00DEB5C6 /* SceneDelegate.swift */; };
+		F5634CE8293E235B00DEB5C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5634CE7293E235B00DEB5C6 /* ViewController.swift */; };
+		F5634CEB293E235B00DEB5C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5634CE9293E235B00DEB5C6 /* Main.storyboard */; };
+		F5634CED293E235D00DEB5C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5634CEC293E235D00DEB5C6 /* Assets.xcassets */; };
+		F5634CF0293E235D00DEB5C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5634CEE293E235D00DEB5C6 /* LaunchScreen.storyboard */; };
+		F5634CFB293E235D00DEB5C6 /* ZeusGuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5634CFA293E235D00DEB5C6 /* ZeusGuardTests.swift */; };
+		F5634D05293E235D00DEB5C6 /* ZeusGuardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5634D04293E235D00DEB5C6 /* ZeusGuardUITests.swift */; };
+		F5634D07293E235D00DEB5C6 /* ZeusGuardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5634D06293E235D00DEB5C6 /* ZeusGuardUITestsLaunchTests.swift */; };
+		F5634D18293E32A400DEB5C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5634D17293E32A300DEB5C6 /* GoogleService-Info.plist */; };
+		F5634D35293EFEE700DEB5C6 /* KeyAttestation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5634D34293EFEE700DEB5C6 /* KeyAttestation.swift */; };
+		F5634D38293FA8BE00DEB5C6 /* SecureEnclaveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5634D37293FA8BE00DEB5C6 /* SecureEnclaveManager.swift */; };
+		F56D06FB29421F1900B053CE /* CertificatePinningManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56D06FA29421F1900B053CE /* CertificatePinningManager.swift */; };
+		F56D06FD29422B3800B053CE /* cert.cer in Resources */ = {isa = PBXBuildFile; fileRef = F56D06FC29422B3800B053CE /* cert.cer */; };
+		F598F8B72940B9B600CE4DEA /* AppCheckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F8B62940B9B600CE4DEA /* AppCheckManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22CFA8B62A7A80DA00627027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5634CD8293E235B00DEB5C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22CFA8AA2A7A80D900627027;
+			remoteInfo = ZeusGuardTestSDK;
+		};
+		22CFA8B82A7A80DA00627027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5634CD8293E235B00DEB5C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5634CDF293E235B00DEB5C6;
+			remoteInfo = ZeusGuard;
+		};
+		22CFA8BE2A7A80DA00627027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5634CD8293E235B00DEB5C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22CFA8AA2A7A80D900627027;
+			remoteInfo = ZeusGuardTestSDK;
+		};
+		F5634CF7293E235D00DEB5C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5634CD8293E235B00DEB5C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5634CDF293E235B00DEB5C6;
+			remoteInfo = ZeusGuard;
+		};
+		F5634D01293E235D00DEB5C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5634CD8293E235B00DEB5C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5634CDF293E235B00DEB5C6;
+			remoteInfo = ZeusGuard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22CFA89E2A7A76B000627027 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22CFA8C12A7A80DA00627027 /* ZeusGuardTestSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06BFD526BCB77F1300AF4AF6 /* Pods-ZeusGuard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusGuard.release.xcconfig"; path = "Target Support Files/Pods-ZeusGuard/Pods-ZeusGuard.release.xcconfig"; sourceTree = "<group>"; };
+		0C366549CB9DA10AC03D6B5A /* Pods-ZeusGuard-ZeusGuardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusGuard-ZeusGuardUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZeusGuard-ZeusGuardUITests/Pods-ZeusGuard-ZeusGuardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D8AD149B0C24CEACBECF88F /* Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests.release.xcconfig"; path = "Target Support Files/Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests/Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		136EE8540FD1E7BE89AA6929 /* Pods-ZeusGuardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusGuardTests.debug.xcconfig"; path = "Target Support Files/Pods-ZeusGuardTests/Pods-ZeusGuardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		222F7AE62A7B958F0085756E /* FirebaseAppCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAppCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		222F7AF52A7B9E0F0085756E /* FirebaseAppCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAppCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		228A3C03A5844B3A295C0F1A /* Pods-ZeusGuardTestSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusGuardTestSDK.debug.xcconfig"; path = "Target Support Files/Pods-ZeusGuardTestSDK/Pods-ZeusGuardTestSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		22CFA8AB2A7A80D900627027 /* ZeusGuardTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZeusGuardTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CFA8AD2A7A80D900627027 /* ZeusGuardTestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZeusGuardTestSDK.h; sourceTree = "<group>"; };
+		22CFA8AE2A7A80D900627027 /* ZeusGuardTestSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ZeusGuardTestSDK.docc; sourceTree = "<group>"; };
+		22CFA8B42A7A80D900627027 /* ZeusGuardTestSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeusGuardTestSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CFA8BB2A7A80DA00627027 /* ZeusGuardTestSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusGuardTestSDKTests.swift; sourceTree = "<group>"; };
+		22CFA8C82A7A811000627027 /* ZGSecureEnclaveManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGSecureEnclaveManager.swift; sourceTree = "<group>"; };
+		2A993E065006D3099FC1E332 /* Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests/Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CA29FF8106CAC537201355C /* Pods_ZeusGuardTestSDK_ZeusGuardTestSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeusGuardTestSDK_ZeusGuardTestSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A82EA3E1D49D6F5320CDD68 /* Pods-ZeusGuardTestSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusGuardTestSDK.release.xcconfig"; path = "Target Support Files/Pods-ZeusGuardTestSDK/Pods-ZeusGuardTestSDK.release.xcconfig"; sourceTree = "<group>"; };
+		4B4AF8032689481E95783E72 /* Pods_ZeusGuardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeusGuardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BAD4DAE5C9E223947714563 /* Pods-ZeusGuardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusGuardTests.release.xcconfig"; path = "Target Support Files/Pods-ZeusGuardTests/Pods-ZeusGuardTests.release.xcconfig"; sourceTree = "<group>"; };
+		8047E18350B507379B908F50 /* Pods-ZeusGuard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusGuard.debug.xcconfig"; path = "Target Support Files/Pods-ZeusGuard/Pods-ZeusGuard.debug.xcconfig"; sourceTree = "<group>"; };
+		AA401D4CC3976852494B551E /* Pods_ZeusGuard_ZeusGuardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeusGuard_ZeusGuardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3416795C302F00233D5A890 /* Pods_ZeusGuardTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeusGuardTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA19D4F2C977B32E78711B61 /* Pods_ZeusGuard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeusGuard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED055986E1E9CD5FAC15721 /* Pods-ZeusGuard-ZeusGuardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusGuard-ZeusGuardUITests.release.xcconfig"; path = "Target Support Files/Pods-ZeusGuard-ZeusGuardUITests/Pods-ZeusGuard-ZeusGuardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F525B3072949E9800059A451 /* JailBreakDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JailBreakDetector.swift; sourceTree = "<group>"; };
+		F5634CE0293E235B00DEB5C6 /* ZeusGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeusGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5634CE3293E235B00DEB5C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5634CE5293E235B00DEB5C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5634CE7293E235B00DEB5C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5634CEA293E235B00DEB5C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5634CEC293E235D00DEB5C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5634CEF293E235D00DEB5C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5634CF1293E235D00DEB5C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5634CF6293E235D00DEB5C6 /* ZeusGuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeusGuardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5634CFA293E235D00DEB5C6 /* ZeusGuardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusGuardTests.swift; sourceTree = "<group>"; };
+		F5634D00293E235D00DEB5C6 /* ZeusGuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeusGuardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5634D04293E235D00DEB5C6 /* ZeusGuardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusGuardUITests.swift; sourceTree = "<group>"; };
+		F5634D06293E235D00DEB5C6 /* ZeusGuardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusGuardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5634D15293E305000DEB5C6 /* AppCheckProviderFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCheckProviderFactory.swift; sourceTree = "<group>"; };
+		F5634D17293E32A300DEB5C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F5634D2F293E512C00DEB5C6 /* ZeusGuard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZeusGuard.entitlements; sourceTree = "<group>"; };
+		F5634D34293EFEE700DEB5C6 /* KeyAttestation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyAttestation.swift; sourceTree = "<group>"; };
+		F5634D37293FA8BE00DEB5C6 /* SecureEnclaveManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclaveManager.swift; sourceTree = "<group>"; };
+		F56D06FA29421F1900B053CE /* CertificatePinningManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatePinningManager.swift; sourceTree = "<group>"; };
+		F56D06FC29422B3800B053CE /* cert.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cert.cer; sourceTree = "<group>"; };
+		F598F8B62940B9B600CE4DEA /* AppCheckManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCheckManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22CFA8A82A7A80D900627027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222F7AF62A7B9E0F0085756E /* FirebaseAppCheck.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CFA8B12A7A80D900627027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CFA8B52A7A80DA00627027 /* ZeusGuardTestSDK.framework in Frameworks */,
+				EF549763D879D101A3869ADE /* Pods_ZeusGuardTestSDK_ZeusGuardTestSDKTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5634CDD293E235B00DEB5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CFA8C02A7A80DA00627027 /* ZeusGuardTestSDK.framework in Frameworks */,
+				C93417D41D10982A321DB4E6 /* Pods_ZeusGuard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5634CF3293E235D00DEB5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F775BF3D4CBB6C6AC2AC7D9 /* Pods_ZeusGuardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5634CFD293E235D00DEB5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97DB669B4ECC660A39A31ED /* Pods_ZeusGuard_ZeusGuardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AB93DC5BA6693D3FB0ED41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8047E18350B507379B908F50 /* Pods-ZeusGuard.debug.xcconfig */,
+				06BFD526BCB77F1300AF4AF6 /* Pods-ZeusGuard.release.xcconfig */,
+				0C366549CB9DA10AC03D6B5A /* Pods-ZeusGuard-ZeusGuardUITests.debug.xcconfig */,
+				EED055986E1E9CD5FAC15721 /* Pods-ZeusGuard-ZeusGuardUITests.release.xcconfig */,
+				228A3C03A5844B3A295C0F1A /* Pods-ZeusGuardTestSDK.debug.xcconfig */,
+				4A82EA3E1D49D6F5320CDD68 /* Pods-ZeusGuardTestSDK.release.xcconfig */,
+				2A993E065006D3099FC1E332 /* Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests.debug.xcconfig */,
+				0D8AD149B0C24CEACBECF88F /* Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests.release.xcconfig */,
+				136EE8540FD1E7BE89AA6929 /* Pods-ZeusGuardTests.debug.xcconfig */,
+				4BAD4DAE5C9E223947714563 /* Pods-ZeusGuardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		22CFA8AC2A7A80D900627027 /* ZeusGuardTestSDK */ = {
+			isa = PBXGroup;
+			children = (
+				22CFA8AD2A7A80D900627027 /* ZeusGuardTestSDK.h */,
+				F5634D15293E305000DEB5C6 /* AppCheckProviderFactory.swift */,
+				22CFA8C82A7A811000627027 /* ZGSecureEnclaveManager.swift */,
+				22CFA8AE2A7A80D900627027 /* ZeusGuardTestSDK.docc */,
+			);
+			path = ZeusGuardTestSDK;
+			sourceTree = "<group>";
+		};
+		22CFA8BA2A7A80DA00627027 /* ZeusGuardTestSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				22CFA8BB2A7A80DA00627027 /* ZeusGuardTestSDKTests.swift */,
+			);
+			path = ZeusGuardTestSDKTests;
+			sourceTree = "<group>";
+		};
+		22CFA90E2A7A92B700627027 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				222F7AF52A7B9E0F0085756E /* FirebaseAppCheck.framework */,
+				222F7AE62A7B958F0085756E /* FirebaseAppCheck.framework */,
+				CA19D4F2C977B32E78711B61 /* Pods_ZeusGuard.framework */,
+				AA401D4CC3976852494B551E /* Pods_ZeusGuard_ZeusGuardUITests.framework */,
+				B3416795C302F00233D5A890 /* Pods_ZeusGuardTestSDK.framework */,
+				3CA29FF8106CAC537201355C /* Pods_ZeusGuardTestSDK_ZeusGuardTestSDKTests.framework */,
+				4B4AF8032689481E95783E72 /* Pods_ZeusGuardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F525B3062949E96D0059A451 /* JailBreakDetector */ = {
+			isa = PBXGroup;
+			children = (
+				F525B3072949E9800059A451 /* JailBreakDetector.swift */,
+			);
+			path = JailBreakDetector;
+			sourceTree = "<group>";
+		};
+		F5634CD7293E235B00DEB5C6 = {
+			isa = PBXGroup;
+			children = (
+				F5634CE2293E235B00DEB5C6 /* ZeusGuard */,
+				F5634CF9293E235D00DEB5C6 /* ZeusGuardTests */,
+				F5634D03293E235D00DEB5C6 /* ZeusGuardUITests */,
+				22CFA8AC2A7A80D900627027 /* ZeusGuardTestSDK */,
+				22CFA8BA2A7A80DA00627027 /* ZeusGuardTestSDKTests */,
+				F5634CE1293E235B00DEB5C6 /* Products */,
+				22CFA90E2A7A92B700627027 /* Frameworks */,
+				03AB93DC5BA6693D3FB0ED41 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F5634CE1293E235B00DEB5C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5634CE0293E235B00DEB5C6 /* ZeusGuard.app */,
+				F5634CF6293E235D00DEB5C6 /* ZeusGuardTests.xctest */,
+				F5634D00293E235D00DEB5C6 /* ZeusGuardUITests.xctest */,
+				22CFA8AB2A7A80D900627027 /* ZeusGuardTestSDK.framework */,
+				22CFA8B42A7A80D900627027 /* ZeusGuardTestSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5634CE2293E235B00DEB5C6 /* ZeusGuard */ = {
+			isa = PBXGroup;
+			children = (
+				F56D06FC29422B3800B053CE /* cert.cer */,
+				F5634D2F293E512C00DEB5C6 /* ZeusGuard.entitlements */,
+				F5634CE3293E235B00DEB5C6 /* AppDelegate.swift */,
+				F5634CE5293E235B00DEB5C6 /* SceneDelegate.swift */,
+				F5634CE7293E235B00DEB5C6 /* ViewController.swift */,
+				F5634CE9293E235B00DEB5C6 /* Main.storyboard */,
+				F5634CEC293E235D00DEB5C6 /* Assets.xcassets */,
+				F5634CEE293E235D00DEB5C6 /* LaunchScreen.storyboard */,
+				F5634CF1293E235D00DEB5C6 /* Info.plist */,
+				F5634D17293E32A300DEB5C6 /* GoogleService-Info.plist */,
+				F525B3062949E96D0059A451 /* JailBreakDetector */,
+				F56D06F929421F0A00B053CE /* CertificatePinning */,
+				F5634D36293FA8AE00DEB5C6 /* SecureEnclave */,
+				F5634D33293EFED500DEB5C6 /* KeyAttestation */,
+				F598F8B52940B98B00CE4DEA /* AppCheck */,
+				F5634D30293E5CF200DEB5C6 /* FirebaseAppCheck */,
+			);
+			path = ZeusGuard;
+			sourceTree = "<group>";
+		};
+		F5634CF9293E235D00DEB5C6 /* ZeusGuardTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5634CFA293E235D00DEB5C6 /* ZeusGuardTests.swift */,
+			);
+			path = ZeusGuardTests;
+			sourceTree = "<group>";
+		};
+		F5634D03293E235D00DEB5C6 /* ZeusGuardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5634D04293E235D00DEB5C6 /* ZeusGuardUITests.swift */,
+				F5634D06293E235D00DEB5C6 /* ZeusGuardUITestsLaunchTests.swift */,
+			);
+			path = ZeusGuardUITests;
+			sourceTree = "<group>";
+		};
+		F5634D30293E5CF200DEB5C6 /* FirebaseAppCheck */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FirebaseAppCheck;
+			sourceTree = "<group>";
+		};
+		F5634D33293EFED500DEB5C6 /* KeyAttestation */ = {
+			isa = PBXGroup;
+			children = (
+				F5634D34293EFEE700DEB5C6 /* KeyAttestation.swift */,
+			);
+			path = KeyAttestation;
+			sourceTree = "<group>";
+		};
+		F5634D36293FA8AE00DEB5C6 /* SecureEnclave */ = {
+			isa = PBXGroup;
+			children = (
+				F5634D37293FA8BE00DEB5C6 /* SecureEnclaveManager.swift */,
+			);
+			path = SecureEnclave;
+			sourceTree = "<group>";
+		};
+		F56D06F929421F0A00B053CE /* CertificatePinning */ = {
+			isa = PBXGroup;
+			children = (
+				F56D06FA29421F1900B053CE /* CertificatePinningManager.swift */,
+			);
+			path = CertificatePinning;
+			sourceTree = "<group>";
+		};
+		F598F8B52940B98B00CE4DEA /* AppCheck */ = {
+			isa = PBXGroup;
+			children = (
+				F598F8B62940B9B600CE4DEA /* AppCheckManager.swift */,
+			);
+			path = AppCheck;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22CFA8A62A7A80D900627027 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CFA8BD2A7A80DA00627027 /* ZeusGuardTestSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22CFA8AA2A7A80D900627027 /* ZeusGuardTestSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CFA8C22A7A80DA00627027 /* Build configuration list for PBXNativeTarget "ZeusGuardTestSDK" */;
+			buildPhases = (
+				911FF3DF593300236978581B /* [CP] Check Pods Manifest.lock */,
+				22CFA8A62A7A80D900627027 /* Headers */,
+				22CFA8A72A7A80D900627027 /* Sources */,
+				22CFA8A82A7A80D900627027 /* Frameworks */,
+				22CFA8A92A7A80D900627027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeusGuardTestSDK;
+			productName = ZeusGuardTestSDK;
+			productReference = 22CFA8AB2A7A80D900627027 /* ZeusGuardTestSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		22CFA8B32A7A80D900627027 /* ZeusGuardTestSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CFA8C52A7A80DA00627027 /* Build configuration list for PBXNativeTarget "ZeusGuardTestSDKTests" */;
+			buildPhases = (
+				F427D35A8C60D7BAB451F08E /* [CP] Check Pods Manifest.lock */,
+				22CFA8B02A7A80D900627027 /* Sources */,
+				22CFA8B12A7A80D900627027 /* Frameworks */,
+				22CFA8B22A7A80D900627027 /* Resources */,
+				1219ADA9D6B610C95746F723 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22CFA8B72A7A80DA00627027 /* PBXTargetDependency */,
+				22CFA8B92A7A80DA00627027 /* PBXTargetDependency */,
+			);
+			name = ZeusGuardTestSDKTests;
+			productName = ZeusGuardTestSDKTests;
+			productReference = 22CFA8B42A7A80D900627027 /* ZeusGuardTestSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5634CDF293E235B00DEB5C6 /* ZeusGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5634D0A293E235D00DEB5C6 /* Build configuration list for PBXNativeTarget "ZeusGuard" */;
+			buildPhases = (
+				361BE9A580533E93061C3835 /* [CP] Check Pods Manifest.lock */,
+				F5634CDC293E235B00DEB5C6 /* Sources */,
+				F5634CDD293E235B00DEB5C6 /* Frameworks */,
+				F5634CDE293E235B00DEB5C6 /* Resources */,
+				22CFA89E2A7A76B000627027 /* Embed Frameworks */,
+				B3CDCEE88C5964B0CC48E85C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22CFA8BF2A7A80DA00627027 /* PBXTargetDependency */,
+			);
+			name = ZeusGuard;
+			productName = ZeusGuard;
+			productReference = F5634CE0293E235B00DEB5C6 /* ZeusGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5634CF5293E235D00DEB5C6 /* ZeusGuardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5634D0D293E235D00DEB5C6 /* Build configuration list for PBXNativeTarget "ZeusGuardTests" */;
+			buildPhases = (
+				BD09F89F8C7BFE8A308ECDB3 /* [CP] Check Pods Manifest.lock */,
+				F5634CF2293E235D00DEB5C6 /* Sources */,
+				F5634CF3293E235D00DEB5C6 /* Frameworks */,
+				F5634CF4293E235D00DEB5C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5634CF8293E235D00DEB5C6 /* PBXTargetDependency */,
+			);
+			name = ZeusGuardTests;
+			productName = ZeusGuardTests;
+			productReference = F5634CF6293E235D00DEB5C6 /* ZeusGuardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5634CFF293E235D00DEB5C6 /* ZeusGuardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5634D10293E235D00DEB5C6 /* Build configuration list for PBXNativeTarget "ZeusGuardUITests" */;
+			buildPhases = (
+				4308C0473A203CFC02811D8F /* [CP] Check Pods Manifest.lock */,
+				F5634CFC293E235D00DEB5C6 /* Sources */,
+				F5634CFD293E235D00DEB5C6 /* Frameworks */,
+				F5634CFE293E235D00DEB5C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5634D02293E235D00DEB5C6 /* PBXTargetDependency */,
+			);
+			name = ZeusGuardUITests;
+			productName = ZeusGuardUITests;
+			productReference = F5634D00293E235D00DEB5C6 /* ZeusGuardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5634CD8293E235B00DEB5C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					22CFA8AA2A7A80D900627027 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					22CFA8B32A7A80D900627027 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F5634CDF293E235B00DEB5C6;
+					};
+					F5634CDF293E235B00DEB5C6 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F5634CF5293E235D00DEB5C6 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F5634CDF293E235B00DEB5C6;
+					};
+					F5634CFF293E235D00DEB5C6 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F5634CDF293E235B00DEB5C6;
+					};
+				};
+			};
+			buildConfigurationList = F5634CDB293E235B00DEB5C6 /* Build configuration list for PBXProject "ZeusGuard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5634CD7293E235B00DEB5C6;
+			productRefGroup = F5634CE1293E235B00DEB5C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5634CDF293E235B00DEB5C6 /* ZeusGuard */,
+				F5634CF5293E235D00DEB5C6 /* ZeusGuardTests */,
+				F5634CFF293E235D00DEB5C6 /* ZeusGuardUITests */,
+				22CFA8AA2A7A80D900627027 /* ZeusGuardTestSDK */,
+				22CFA8B32A7A80D900627027 /* ZeusGuardTestSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22CFA8A92A7A80D900627027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CFA8B22A7A80D900627027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5634CDE293E235B00DEB5C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5634CF0293E235D00DEB5C6 /* LaunchScreen.storyboard in Resources */,
+				F5634D18293E32A400DEB5C6 /* GoogleService-Info.plist in Resources */,
+				F5634CED293E235D00DEB5C6 /* Assets.xcassets in Resources */,
+				F56D06FD29422B3800B053CE /* cert.cer in Resources */,
+				F5634CEB293E235B00DEB5C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5634CF4293E235D00DEB5C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5634CFE293E235D00DEB5C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1219ADA9D6B610C95746F723 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests/Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests/Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests/Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		361BE9A580533E93061C3835 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZeusGuard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4308C0473A203CFC02811D8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZeusGuard-ZeusGuardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		911FF3DF593300236978581B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZeusGuardTestSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CDCEE88C5964B0CC48E85C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZeusGuard/Pods-ZeusGuard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZeusGuard/Pods-ZeusGuard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZeusGuard/Pods-ZeusGuard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD09F89F8C7BFE8A308ECDB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZeusGuardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F427D35A8C60D7BAB451F08E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22CFA8A72A7A80D900627027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CFA8C92A7A811000627027 /* ZGSecureEnclaveManager.swift in Sources */,
+				22CFA8AF2A7A80D900627027 /* ZeusGuardTestSDK.docc in Sources */,
+				22CFA9012A7A909D00627027 /* AppCheckProviderFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CFA8B02A7A80D900627027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CFA8BC2A7A80DA00627027 /* ZeusGuardTestSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5634CDC293E235B00DEB5C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5634CE8293E235B00DEB5C6 /* ViewController.swift in Sources */,
+				F5634D38293FA8BE00DEB5C6 /* SecureEnclaveManager.swift in Sources */,
+				F5634D35293EFEE700DEB5C6 /* KeyAttestation.swift in Sources */,
+				F525B3082949E9800059A451 /* JailBreakDetector.swift in Sources */,
+				F56D06FB29421F1900B053CE /* CertificatePinningManager.swift in Sources */,
+				F598F8B72940B9B600CE4DEA /* AppCheckManager.swift in Sources */,
+				F5634CE4293E235B00DEB5C6 /* AppDelegate.swift in Sources */,
+				F5634CE6293E235B00DEB5C6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5634CF2293E235D00DEB5C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5634CFB293E235D00DEB5C6 /* ZeusGuardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5634CFC293E235D00DEB5C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5634D05293E235D00DEB5C6 /* ZeusGuardUITests.swift in Sources */,
+				F5634D07293E235D00DEB5C6 /* ZeusGuardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22CFA8B72A7A80DA00627027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22CFA8AA2A7A80D900627027 /* ZeusGuardTestSDK */;
+			targetProxy = 22CFA8B62A7A80DA00627027 /* PBXContainerItemProxy */;
+		};
+		22CFA8B92A7A80DA00627027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5634CDF293E235B00DEB5C6 /* ZeusGuard */;
+			targetProxy = 22CFA8B82A7A80DA00627027 /* PBXContainerItemProxy */;
+		};
+		22CFA8BF2A7A80DA00627027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22CFA8AA2A7A80D900627027 /* ZeusGuardTestSDK */;
+			targetProxy = 22CFA8BE2A7A80DA00627027 /* PBXContainerItemProxy */;
+		};
+		F5634CF8293E235D00DEB5C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5634CDF293E235B00DEB5C6 /* ZeusGuard */;
+			targetProxy = F5634CF7293E235D00DEB5C6 /* PBXContainerItemProxy */;
+		};
+		F5634D02293E235D00DEB5C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5634CDF293E235B00DEB5C6 /* ZeusGuard */;
+			targetProxy = F5634D01293E235D00DEB5C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5634CE9293E235B00DEB5C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5634CEA293E235B00DEB5C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5634CEE293E235D00DEB5C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5634CEF293E235D00DEB5C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22CFA8C32A7A80DA00627027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 228A3C03A5844B3A295C0F1A /* Pods-ZeusGuardTestSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EL3G87RG88;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vlada.zivanov.ZeusGuardTestSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		22CFA8C42A7A80DA00627027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A82EA3E1D49D6F5320CDD68 /* Pods-ZeusGuardTestSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EL3G87RG88;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vlada.zivanov.ZeusGuardTestSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22CFA8C62A7A80DA00627027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A993E065006D3099FC1E332 /* Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T85B8Y4LF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vlada.zivanov.ZeusGuardTestSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeusGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeusGuard";
+			};
+			name = Debug;
+		};
+		22CFA8C72A7A80DA00627027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8AD149B0C24CEACBECF88F /* Pods-ZeusGuardTestSDK-ZeusGuardTestSDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T85B8Y4LF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vlada.zivanov.ZeusGuardTestSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeusGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeusGuard";
+			};
+			name = Release;
+		};
+		F5634D08293E235D00DEB5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5634D09293E235D00DEB5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5634D0B293E235D00DEB5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8047E18350B507379B908F50 /* Pods-ZeusGuard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZeusGuard/ZeusGuard.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EL3G87RG88;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZeusGuard",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZeusGuard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vlada.zeusguard.ZeusGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F5634D0C293E235D00DEB5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BFD526BCB77F1300AF4AF6 /* Pods-ZeusGuard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZeusGuard/ZeusGuard.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EL3G87RG88;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZeusGuard",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZeusGuard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vlada.zeusguard.ZeusGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F5634D0E293E235D00DEB5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 136EE8540FD1E7BE89AA6929 /* Pods-ZeusGuardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CCXG2UGPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dinic.zeusguard.ZeusGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeusGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeusGuard";
+			};
+			name = Debug;
+		};
+		F5634D0F293E235D00DEB5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BAD4DAE5C9E223947714563 /* Pods-ZeusGuardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CCXG2UGPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dinic.zeusguard.ZeusGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeusGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeusGuard";
+			};
+			name = Release;
+		};
+		F5634D11293E235D00DEB5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C366549CB9DA10AC03D6B5A /* Pods-ZeusGuard-ZeusGuardUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CCXG2UGPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dinic.zeusguard.ZeusGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZeusGuard;
+			};
+			name = Debug;
+		};
+		F5634D12293E235D00DEB5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED055986E1E9CD5FAC15721 /* Pods-ZeusGuard-ZeusGuardUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CCXG2UGPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dinic.zeusguard.ZeusGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZeusGuard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22CFA8C22A7A80DA00627027 /* Build configuration list for PBXNativeTarget "ZeusGuardTestSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CFA8C32A7A80DA00627027 /* Debug */,
+				22CFA8C42A7A80DA00627027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22CFA8C52A7A80DA00627027 /* Build configuration list for PBXNativeTarget "ZeusGuardTestSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CFA8C62A7A80DA00627027 /* Debug */,
+				22CFA8C72A7A80DA00627027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5634CDB293E235B00DEB5C6 /* Build configuration list for PBXProject "ZeusGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5634D08293E235D00DEB5C6 /* Debug */,
+				F5634D09293E235D00DEB5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5634D0A293E235D00DEB5C6 /* Build configuration list for PBXNativeTarget "ZeusGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5634D0B293E235D00DEB5C6 /* Debug */,
+				F5634D0C293E235D00DEB5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5634D0D293E235D00DEB5C6 /* Build configuration list for PBXNativeTarget "ZeusGuardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5634D0E293E235D00DEB5C6 /* Debug */,
+				F5634D0F293E235D00DEB5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5634D10293E235D00DEB5C6 /* Build configuration list for PBXNativeTarget "ZeusGuardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5634D11293E235D00DEB5C6 /* Debug */,
+				F5634D12293E235D00DEB5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5634CD8293E235B00DEB5C6 /* Project object */;
+}
