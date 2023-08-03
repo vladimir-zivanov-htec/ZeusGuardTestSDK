@@ -8,8 +8,6 @@
 import Foundation
 import FirebaseCore
 import FirebaseAppCheck
-//import FirebaseStorage
-//import FirebaseAuth
 
 
 class FirebaseAppChecker {
