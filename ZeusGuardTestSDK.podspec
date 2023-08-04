@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ZeusGuardTestSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "A CocoaPods library written in Swift for generating tokens"
 
   spec.description  = <<-DESC
